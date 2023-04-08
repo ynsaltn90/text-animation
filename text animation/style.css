@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(18, 15, 10);
+    height: 70vh;
+}
+
+.div1{
+    
+    display: block;
+    text-align: center;
+    margin-top: 250px;
+}
+
+h1{
+    display: inline-block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url("photo.jpg");
+    font-size: 12rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #559ae454;
+    animation: move 18s linear infinite;
+    letter-spacing: .3rem; 
+}
+
+@keyframes move{
+    from { background-position: 0 80%;}
+    to{background-position: 100% 50%;}
+}
